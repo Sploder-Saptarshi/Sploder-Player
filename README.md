@@ -1,3 +1,3 @@
 # Sploder-Player
-PHP code for playing games on https://sploder.us.to
+PHP code for playing games on https://sploder.us.to.<br>
 This has been kept for the sake of keeping it. Terrible code.
