@@ -1,0 +1,101 @@
+/* 
+    Document   : publishpage
+    Created on : Mar 15, 2013, 11:29:19 AM
+    Author     : ggaudrea
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+#show
+{
+    width: 540px;
+    text-align: center;
+    margin-top: 20px !important;
+    margin: 40px auto 0 auto;
+    padding: 0;
+    background: #000;
+    border: 1px solid #9BACCE;
+}
+
+#show p
+{
+    text-align: center;
+}
+
+.showcontent
+{
+    margin: 0;
+    padding: 10px 40px 20px 40px;
+}
+
+
+
+#content div.share,
+div.showcontent div.share
+{
+    display: inline;
+    float: left;
+    margin-top: 3px !important;
+    margin: 4px 0 18px 0;
+}
+
+#content div.vote,
+div.showcontent div.vote
+{
+    display: inline;
+    float: left;
+    margin-right: 8px;
+}
+
+#show div.showcontent div.share
+{
+    margin-top: 18px !important;
+    margin: 19px 0 10px 0;
+}
+
+#show div.showcontent div.vote
+{
+    margin: 15px 8px 10px 6px;
+}
+
+div.share ul
+{
+    display: block;
+    float: none;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    width: 186px;
+}
+
+#show div.showcontent object#rating
+{
+    margin: 0;
+    padding: 0;
+}
+
+div.captcha
+{
+    margin-bottom: 10px;
+}
+
+div#show p.prompt
+{
+    margin-top: 15px;
+}
+
+
+div#show div#getcode textarea
+{
+    border: 2px solid #89a;
+    overflow: hidden;
+}
+
+div#show div#getcode textarea:hover
+{
+    border: 2px solid red;
+}
+
+
