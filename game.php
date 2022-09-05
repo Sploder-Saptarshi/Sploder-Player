@@ -45,7 +45,7 @@ elseif ($_GET["target"] == "arcade") {
 
     }
 elseif ($_GET["target"] == "3dadventure") {
-    echo '<iframe src="https://sploder.us.to/fullgame3_b08.swf?s=' . $_GET["pubkey"] . '" width="640px" height="480px" style="border:none;"></iframe>';
+    echo '<iframe src="https://sploder.us.to/fullgame3_b02.swf?s=' . $_GET["pubkey"] . '" width="640px" height="480px" style="border:none;"></iframe>';
 
       }
     
