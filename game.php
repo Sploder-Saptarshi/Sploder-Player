@@ -1,8 +1,8 @@
-<?php echo "<script>window.boops = \"Playing: " . $_GET["title"] . "\";</script>"; ?>
+<?php echo "<script>window.boops = \"Playing: " . str_replace("apos","'",$_GET["title"]) . "\";</script>"; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title><?php echo $_GET['title']?></title>
+<title><?php echo str_replace("apos","&#39;",$_GET["title"])?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <link rel="stylesheet" href="/css/sploder_v2.css" type="text/css" />
@@ -28,7 +28,7 @@ echo '<li id="nav1"><a  >Make a Game</a></li>'
 <br><br><center>
 <div id="show" style="width:720px;" ><a name="kickdown" style="height:1px; overflow:hidden;"></a>
 <div class="showcontent">
-<h4><?php echo $_GET["title"]?></h4>
+<h4><?php echo str_replace("apos","&#39;",$_GET["title"])?></h4>
 <div class="gameobject" style="width: 640px; height: 480px;">
 <div id="flashcontent"><?php if ($_GET["target"] == "platformer") {
     echo '<iframe src="https://www.sploder.com/fullgame2_b21.swf?s=' . $_GET["pubkey"] . '" width="640px" height="480px" style="border:none;"></iframe>';
