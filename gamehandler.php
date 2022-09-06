@@ -18,13 +18,15 @@
 
       $d = str_replace("<meta property=\"og:title\" content=\"", "", $lines[20]);
       $e = str_replace("\" />", "", $d);
+      $qdd = str_replace("'","apos",$e);
+
 
       $l = str_replace("<meta name=\"twitter:description\" content=\"Play this awesome game made by ", "", $lines[34]);
       $m = str_replace(" game maker!\" />", "", $l);
       $n = str_replace("using Sploder's", "", $m);
       $p = str_replace(strtok($n, " "), "", $n);
       $q = str_replace(" ", "", $p);
-     echo "<meta http-equiv=\"refresh\" content=\"0;URL='https://sploder.us.to/game.php?&title=" . $e . "&pubkey=" . $r . "&target=" . $q . "\" />";
+     echo "<meta http-equiv=\"refresh\" content=\"0;URL='https://sploder.us.to/game.php?&title=" . $qdd . "&pubkey=" . $r . "&target=" . $q . "\" />";
     }
     else
     {
