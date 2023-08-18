@@ -1,5 +1,5 @@
 # Sploder Player
-PHP code for playing games on https://sploder.us.to/play.php.<br>
+PHP code for playing games on https://sploder.us.to/play.php?v=301.<br>
 This has been kept for the sake of keeping it. Terrible code.
 ## How to use
 1. <a href="https://github.com/Sploder-Saptarshi/sploder-browser/releases/download/2.0.0/Sploder.Setup.2.0.0.exe">Download the Launcher</a><br>
